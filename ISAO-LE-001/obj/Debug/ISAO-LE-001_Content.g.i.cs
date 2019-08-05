@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/logo2020.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/logo2020_transparent.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/background.jpg")]
 
 

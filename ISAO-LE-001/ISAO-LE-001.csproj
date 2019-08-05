@@ -76,9 +76,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Connexion.xaml.cs">
+      <DependentUpon>Connexion.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Splash.xaml.cs">
       <DependentUpon>Splash.xaml</DependentUpon>
     </Compile>
+    <Page Include="Connexion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -139,9 +146,22 @@
     <Resource Include="media\logo2020.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="media\logo2020_transparent.png">
+    <None Include="media\logo2020_transparent.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\diag_nok.png" />
+    <Resource Include="media\diag_ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\led_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\background2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\background.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

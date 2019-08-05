@@ -5,44 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ISAO_LE_001"
         mc:Ignorable="d"
-        Title="Interface principal" Height="450" Width="800" ResizeMode="NoResize">
-    <Grid>
-        <TextBox x:Name="ip_box" HorizontalAlignment="Left" Height="23" Margin="39,125,0,0" TextWrapping="Wrap" Text="ip adresse" VerticalAlignment="Top" Width="120"/>
-        <ListBox x:Name="listCpu" HorizontalAlignment="Left" Height="100" Margin="39,186,0,0" VerticalAlignment="Top" Width="100" SelectionChanged="ListCpu_SelectionChanged">
-            <ListBoxItem x:Name="S7_200" Content="S7-200"/>
-            <ListBoxItem x:Name="S7_300" Content="S7-300"/>
-            <ListBoxItem x:Name="S7_400" Content="S7-400"/>
-            <ListBoxItem x:Name="S7_1200" Content="S7-1200"/>
-            <ListBoxItem x:Name="S7_1500" Content="S7-1500"/>
-            <ListBoxItem/>
-
-        </ListBox>
-        <Label x:Name="label" Content="Connexion" HorizontalAlignment="Left" Margin="39,94,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="rack_box" HorizontalAlignment="Left" Height="23" Margin="164,125,0,0" TextWrapping="Wrap" Text="rack" VerticalAlignment="Top" Width="37"/>
-        <TextBox x:Name="slot_box" HorizontalAlignment="Left" Height="23" Margin="219,125,0,0" TextWrapping="Wrap" Text="slot" VerticalAlignment="Top" Width="37" RenderTransformOrigin="-1.616,0.996"/>
-        <Grid x:Name="data_grid" HorizontalAlignment="Left" Height="286" Margin="25,94,0,0" VerticalAlignment="Top" Width="245" Background="#FF6BE8D4" Panel.ZIndex="-1"/>
-        <Label x:Name="label_Copy" Content="Type de données" HorizontalAlignment="Left" Margin="381,184,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="produit" Content="ISAO-LE" HorizontalAlignment="Left" Height="38" Margin="25,24,0,0" VerticalAlignment="Top" Width="173" FontSize="24"/>
-        <ListBox x:Name="listCpu_Copy" HorizontalAlignment="Left" Height="116" Margin="381,217,0,0" VerticalAlignment="Top" Width="116" SelectionChanged="ListCpu_SelectionChanged">
+        Title="ISAO-LE : Interface principal" Height="450" Width="809.6" ResizeMode="NoResize">
+    <Grid Background="#FF3FEAC8">
+        <Label x:Name="label_Copy" Content="Type de données" HorizontalAlignment="Left" Margin="29,147,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="list_data_type" HorizontalAlignment="Left" Height="180" Margin="29,182,0,0" VerticalAlignment="Top" Width="117" SelectionChanged="ListCpu_SelectionChanged">
             <ListBoxItem x:Name="input" Content="Entrées"/>
             <ListBoxItem x:Name="output" Content="Sorties"/>
             <ListBoxItem x:Name="Memory" Content="Memoire"/>
             <ListBoxItem x:Name="db" Content="Block de donéees"/>
-            <ListBoxItem x:Name="Timer" Content="Counter"/>
+            <ListBoxItem x:Name="timer" Content="Timer"/>
+            <ListBoxItem x:Name="counter" Content="Compteur"/>
             <ListBoxItem/>
 
         </ListBox>
-        <ListBox x:Name="listCpu_Copy1" HorizontalAlignment="Left" Height="116" Margin="544,217,0,0" VerticalAlignment="Top" Width="205" SelectionChanged="ListCpu_SelectionChanged">
+        <ListBox x:Name="list_data" HorizontalAlignment="Left" Height="164" Margin="167,198,0,0" VerticalAlignment="Top" Width="382" SelectionChanged="ListCpu_SelectionChanged">
 
         </ListBox>
-        <Label x:Name="label_Copy1" Content="Données" HorizontalAlignment="Left" Margin="544,186,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="bt_valider_con" Content="Valider" HorizontalAlignment="Left" Margin="39,350,0,0" VerticalAlignment="Top" Width="75"/>
-        <Label x:Name="label1" Content="V0.0.1" HorizontalAlignment="Left" Margin="677,28,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.414,0.051" FontSize="18"/>
-        <Grid x:Name="data_grid_Copy" HorizontalAlignment="Left" Height="226" Margin="275,154,0,0" VerticalAlignment="Top" Width="495" Background="#FF6BE8D4" Panel.ZIndex="-1"/>
-        <TextBox x:Name="messagesBox" HorizontalAlignment="Left" Height="41" Margin="290,94,0,0" TextWrapping="Wrap" Text="Attente choix CPU" VerticalAlignment="Top" Width="459" IsEnabled="False"/>
-        <Label x:Name="label_Copy2" Content="Messages" HorizontalAlignment="Left" Margin="290,68,0,0" VerticalAlignment="Top"/>
-        <Grid x:Name="gridMessage" HorizontalAlignment="Left" Height="94" Margin="275,67,0,0" VerticalAlignment="Top" Width="495" Background="#FFCEA19C" Panel.ZIndex="-1"/>
-        <Label x:Name="label2" Content="© Careca Services 2013-2019" HorizontalAlignment="Left" Margin="25,385,0,0" VerticalAlignment="Top" Width="135"/>
+        <Label x:Name="adresse_label" Content="adresse" HorizontalAlignment="Left" Margin="167,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.582,-1.569"/>
+        <TextBox x:Name="alarm_box" HorizontalAlignment="Left" Height="41" Margin="44,61,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Width="459" IsEnabled="False"/>
+        <Label x:Name="label_Copy2" Content="Messages" HorizontalAlignment="Left" Margin="84,10,0,0" VerticalAlignment="Top"/>
+        <Grid x:Name="gridMessage" HorizontalAlignment="Left" Height="74" Margin="29,45,0,0" VerticalAlignment="Top" Width="495" Background="#FFCEA19C" Panel.ZIndex="-1"/>
+        <TextBox x:Name="addr_box" HorizontalAlignment="Left" Height="23" Margin="167,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="91"/>
+        <TextBox x:Name="start_point_box" HorizontalAlignment="Left" Height="23" Margin="263,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="91"/>
+        <TextBox x:Name="nb_box" HorizontalAlignment="Left" Height="23" Margin="359,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="91"/>
+        <Label x:Name="start_point_label" Content="point dedépart" HorizontalAlignment="Left" Margin="263,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.582,-1.569"/>
+        <Label x:Name="butes_label" Content="bytes" HorizontalAlignment="Left" Margin="359,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.582,-1.569"/>
+        <Button x:Name="button" Content="Interface Info Diag" HorizontalAlignment="Left" Margin="555,147,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="False"/>
+        <Image x:Name="diag_ok" HorizontalAlignment="Left" Height="100" Margin="536,37,0,0" VerticalAlignment="Top" Width="100" Source="media/diag_ok.png" Panel.ZIndex="1"/>
+        <Image x:Name="diag_nok" HorizontalAlignment="Left" Height="100" Margin="649,37,0,0" VerticalAlignment="Top" Width="100" Source="media/diag_nok.png" Panel.ZIndex="1"/>
+        <Image x:Name="led_off1" HorizontalAlignment="Left" Height="100" Margin="536,37,0,0" VerticalAlignment="Top" Width="100" Source="media/led_off.png"/>
+        <Image x:Name="led_off2" HorizontalAlignment="Left" Height="100" Margin="649,37,0,0" VerticalAlignment="Top" Width="100" Source="media/led_off.png"/>
+        <Button x:Name="button_Copy" Content="Interface config Diag" HorizontalAlignment="Left" Margin="555,198,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="False"/>
+        <Button x:Name="button_Copy1" Content="Aide" HorizontalAlignment="Left" Margin="555,247,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="False"/>
+        <Button x:Name="bt_valider" Content="Valider" HorizontalAlignment="Left" Margin="29,367,0,0" VerticalAlignment="Top" Width="117" RenderTransformOrigin="-1.055,0.12" Click="BtValiderOnClick"/>
 
     </Grid>
 </Window>

@@ -18,3 +18,6 @@ C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\ISAO-LE-001.exe
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\ISAO-LE-001.pdb
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\Splash.g.cs
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\Splash.baml
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\Connexion.g.cs
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\Connexion.baml
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\bin\Debug\media\logo2020_transparent.png

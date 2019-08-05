@@ -21,17 +21,23 @@ namespace ISAO_LE_001
     /// </summary>
     public partial class Splash : Window
     {
-        MainWindow m;
+        Connexion conWin;
         bool Btcon_pushed;
         public Splash()
         {
             InitializeComponent();
-            m = new MainWindow();
+            bt_connect.Visibility = Visibility.Hidden;
+            bt_close.Visibility = Visibility.Hidden;
+            conWin = new Connexion();
         }
 
         private void ProgressBar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-
+            if (pbar.Value == 100)
+            {
+                bt_connect.Visibility = Visibility.Visible;
+                bt_close.Visibility = Visibility.Visible;
+            }
         }
 
         private void SplashActivated(object sender, EventArgs e)
@@ -47,7 +53,7 @@ namespace ISAO_LE_001
                 Thread.Sleep(10);
 
             }
-            bt_connect.Visibility = Visibility.Visible;
+            
           
             
         }
@@ -55,16 +61,25 @@ namespace ISAO_LE_001
         private void Bt_ConnectOnClick(object sender, RoutedEventArgs e)
         {
             Btcon_pushed = true;
-            m.Show();
+            conWin.Show();
             Splash1.Close();
         }
 
         private void SplashClosed(object sender, EventArgs e)
         {
-            if (!Btcon_pushed) m.Close();
+            if (!Btcon_pushed)
+            {
+                Application.Current.Shutdown();
+
+            }
            
 
             
+        }
+
+        private void Bt_CloseOnClick(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }

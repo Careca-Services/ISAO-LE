@@ -1,0 +1,29 @@
+﻿<Window x:Name="conWin" x:Class="ISAO_LE_001.Connexion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISAO_LE_001"
+        mc:Ignorable="d"
+        Title="ISAO-LE : Connexion" Height="450" Width="306.731" ResizeMode="NoResize" Closed="conWinOnClosed">
+    <Grid Background="#FF3FEAC8">
+        <TextBox x:Name="ip_box" HorizontalAlignment="Left" Height="23" Margin="19,97,0,0" TextWrapping="Wrap" Text="0.0.0.0" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="listCpu" HorizontalAlignment="Left" Height="121" Margin="19,148,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="ListCpu_SelectionChanged" IsTabStop="True">
+            <ListBoxItem x:Name="S7_200" Content="S7-200" />
+            <ListBoxItem x:Name="S7_300" Content="S7-300"/>
+            <ListBoxItem x:Name="S7_400" Content="S7-400"/>
+            <ListBoxItem x:Name="S7_1200" Content="S7-1200"/>
+            <ListBoxItem x:Name="S7_1500" Content="S7-1500"/>
+            <ListBoxItem x:Name="Logo_0BA8" Content="Logo-0BA8"/>
+            <ListBoxItem/>
+
+        </ListBox>
+        <TextBox x:Name="rack_box" HorizontalAlignment="Left" Height="23" Margin="144,97,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="52"/>
+        <TextBox x:Name="slot_box" HorizontalAlignment="Left" Height="23" Margin="201,96,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="52" RenderTransformOrigin="-1.616,0.996"/>
+        <Button x:Name="bt_valider_con" Content="Valider" HorizontalAlignment="Left" Margin="19,331,0,0" VerticalAlignment="Top" Width="241" Height="39" Click="Bt_valider_con_Click"/>
+        <Label x:Name="label" Content="adresse IP" HorizontalAlignment="Left" Margin="19,66,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="Rack" HorizontalAlignment="Left" Margin="144,66,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="Slot" HorizontalAlignment="Left" Margin="201,66,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
