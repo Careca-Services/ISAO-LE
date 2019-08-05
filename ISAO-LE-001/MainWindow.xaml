@@ -21,23 +21,25 @@
         <ListBox x:Name="list_data" HorizontalAlignment="Left" Height="164" Margin="167,198,0,0" VerticalAlignment="Top" Width="382" SelectionChanged="ListCpu_SelectionChanged">
 
         </ListBox>
-        <Label x:Name="adresse_label" Content="adresse" HorizontalAlignment="Left" Margin="167,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.582,-1.569"/>
+        <Label x:Name="adresse_label" Content="adresse (M/E/A/DB,T/C)" HorizontalAlignment="Left" Margin="167,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.582,-1.569"/>
         <TextBox x:Name="alarm_box" HorizontalAlignment="Left" Height="41" Margin="44,61,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Width="459" IsEnabled="False"/>
         <Label x:Name="label_Copy2" Content="Messages" HorizontalAlignment="Left" Margin="84,10,0,0" VerticalAlignment="Top"/>
         <Grid x:Name="gridMessage" HorizontalAlignment="Left" Height="74" Margin="29,45,0,0" VerticalAlignment="Top" Width="495" Background="#FFCEA19C" Panel.ZIndex="-1"/>
-        <TextBox x:Name="addr_box" HorizontalAlignment="Left" Height="23" Margin="167,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="91"/>
-        <TextBox x:Name="start_point_box" HorizontalAlignment="Left" Height="23" Margin="263,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="91"/>
-        <TextBox x:Name="nb_box" HorizontalAlignment="Left" Height="23" Margin="359,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="91"/>
-        <Label x:Name="start_point_label" Content="point dedépart" HorizontalAlignment="Left" Margin="263,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.582,-1.569"/>
-        <Label x:Name="butes_label" Content="bytes" HorizontalAlignment="Left" Margin="359,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.582,-1.569"/>
-        <Button x:Name="button" Content="Interface Info Diag" HorizontalAlignment="Left" Margin="555,147,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="False"/>
+        <TextBox x:Name="addr_box" HorizontalAlignment="Left" Height="23" Margin="167,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="136"/>
+        <TextBox x:Name="start_point_box" HorizontalAlignment="Left" Height="23" Margin="320,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="91"/>
+        <TextBox x:Name="nb_box" HorizontalAlignment="Left" Height="23" Margin="458,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="91"/>
+        <Label x:Name="start_point_label" Content="point dedépart" HorizontalAlignment="Left" Margin="320,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.582,-1.569"/>
+        <Label x:Name="butes_label" Content="bytes" HorizontalAlignment="Left" Margin="458,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.582,-1.569"/>
+        <Button x:Name="button" Content="Interface Info Diag" HorizontalAlignment="Left" Margin="555,147,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="False" Background="#FFC1EEEA"/>
         <Image x:Name="diag_ok" HorizontalAlignment="Left" Height="100" Margin="536,37,0,0" VerticalAlignment="Top" Width="100" Source="media/diag_ok.png" Panel.ZIndex="1"/>
         <Image x:Name="diag_nok" HorizontalAlignment="Left" Height="100" Margin="649,37,0,0" VerticalAlignment="Top" Width="100" Source="media/diag_nok.png" Panel.ZIndex="1"/>
         <Image x:Name="led_off1" HorizontalAlignment="Left" Height="100" Margin="536,37,0,0" VerticalAlignment="Top" Width="100" Source="media/led_off.png"/>
         <Image x:Name="led_off2" HorizontalAlignment="Left" Height="100" Margin="649,37,0,0" VerticalAlignment="Top" Width="100" Source="media/led_off.png"/>
-        <Button x:Name="button_Copy" Content="Interface config Diag" HorizontalAlignment="Left" Margin="555,198,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="False"/>
-        <Button x:Name="button_Copy1" Content="Aide" HorizontalAlignment="Left" Margin="555,247,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="False"/>
+        <Button x:Name="button_Copy" Content="Interface config Diag" HorizontalAlignment="Left" Margin="555,198,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="true" Background="#FFC1EEEA"/>
+        <Button x:Name="button_Copy1" Content="Aide" HorizontalAlignment="Left" Margin="555,247,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="False" Background="#FFC1EEEA"/>
         <Button x:Name="bt_valider" Content="Valider" HorizontalAlignment="Left" Margin="29,367,0,0" VerticalAlignment="Top" Width="117" RenderTransformOrigin="-1.055,0.12" Click="BtValiderOnClick"/>
+        <Label x:Name="label" Content="OK" HorizontalAlignment="Left" Margin="569,6,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="NOK" HorizontalAlignment="Left" Margin="688,6,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

@@ -73,6 +73,10 @@ namespace ISAO_LE_001
                 mainWin.Show();
                 conWin.Close();
             }
+            else
+            {
+                bt_valPushed = false;
+            }
             
             
         }

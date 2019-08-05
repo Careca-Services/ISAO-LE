@@ -21,3 +21,4 @@ C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Release\ISAO-LE-001.c
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Release\Connexion.g.cs
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Release\Connexion.baml
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\bin\Release\media\logo2020_transparent.png
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Release\ISAO_LE_001.AboutBox1.resources

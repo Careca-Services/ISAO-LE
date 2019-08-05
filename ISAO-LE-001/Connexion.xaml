@@ -20,7 +20,7 @@
         </ListBox>
         <TextBox x:Name="rack_box" HorizontalAlignment="Left" Height="23" Margin="144,97,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="52"/>
         <TextBox x:Name="slot_box" HorizontalAlignment="Left" Height="23" Margin="201,96,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="52" RenderTransformOrigin="-1.616,0.996"/>
-        <Button x:Name="bt_valider_con" Content="Valider" HorizontalAlignment="Left" Margin="19,331,0,0" VerticalAlignment="Top" Width="241" Height="39" Click="Bt_valider_con_Click"/>
+        <Button x:Name="bt_valider_con" Content="Valider" HorizontalAlignment="Left" Margin="19,331,0,0" VerticalAlignment="Top" Width="241" Height="39" Click="Bt_valider_con_Click" Background="#FFC1EEEA"/>
         <Label x:Name="label" Content="adresse IP" HorizontalAlignment="Left" Margin="19,66,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label_Copy" Content="Rack" HorizontalAlignment="Left" Margin="144,66,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label_Copy1" Content="Slot" HorizontalAlignment="Left" Margin="201,66,0,0" VerticalAlignment="Top"/>
