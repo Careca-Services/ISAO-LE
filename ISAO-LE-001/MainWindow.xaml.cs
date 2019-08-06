@@ -26,6 +26,9 @@ namespace ISAO_LE_001
         int adress;
         int start_p;
         int nb_data;
+        AboutBox1 aideWin;
+        ConfigDiag conf_diagWin;
+        InfoDiag infoDiagWin;
         public MainWindow()
         {
             InitializeComponent();
@@ -40,6 +43,9 @@ namespace ISAO_LE_001
                 diag_ok.Visibility = Visibility.Hidden;
 
             }
+            aideWin = new AboutBox1();
+            infoDiagWin = new InfoDiag();
+            conf_diagWin = new ConfigDiag();
         }
 
         private void ListCpu_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -106,6 +112,27 @@ namespace ISAO_LE_001
                 default:
                     return S7.Net.DataType.DataBlock;
             }
+        }
+
+        private void BtAideOnClick(object sender, RoutedEventArgs e)
+        {
+            aideWin.Show();
+        }
+
+        private void mainWinOnClosed(object sender, EventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void BtConfDiagOnClick(object sender, RoutedEventArgs e)
+        {
+            conf_diagWin.Show();
+        }
+
+        private void Bt_diag_Click(object sender, RoutedEventArgs e)
+        {
+
+            infoDiagWin.Show();
         }
     }
 }

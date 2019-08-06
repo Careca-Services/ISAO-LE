@@ -21,3 +21,8 @@ C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\Splash.baml
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\Connexion.g.cs
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\Connexion.baml
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\bin\Debug\media\logo2020_transparent.png
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\bin\Debug\ISAO-LE-001.exe.manifest
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\bin\Debug\ISAO-LE-001.application
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\ISAO_LE_001.AboutBox1.resources
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\ISAO-LE-001.exe.manifest
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\ISAO-LE-001.application
