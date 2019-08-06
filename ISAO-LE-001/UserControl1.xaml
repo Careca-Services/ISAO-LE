@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="ISAO_LE_001.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ISAO_LE_001"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" Width="413.462">
+    <Grid Background="#FF3FEAC8">
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="32,183,0,0" VerticalAlignment="Top" Height="59" Width="352" Password="password" FontSize="48"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="46" Margin="32,115,0,0" TextWrapping="Wrap" Text="User" VerticalAlignment="Top" Width="352" FontSize="36"/>
+        <Label x:Name="label" Content="nom d'utilisateur" HorizontalAlignment="Left" Margin="32,84,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="mot de passe" HorizontalAlignment="Left" Margin="32,161,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="32,312,0,0" VerticalAlignment="Top" Width="352" Height="60"/>
+
+    </Grid>
+</UserControl>
