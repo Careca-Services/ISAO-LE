@@ -8,12 +8,12 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ISAO-LE-001")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("ISAO (Smart automation OPC) Logiciel de supervision industrielle predictive")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Careca Services SAS")]
 [assembly: AssemblyProduct("ISAO-LE-001")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © Careca Services 2013-2019")]
+[assembly: AssemblyTrademark("CEAS")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

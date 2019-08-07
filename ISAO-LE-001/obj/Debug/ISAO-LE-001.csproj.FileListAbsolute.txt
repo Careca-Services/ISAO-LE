@@ -26,3 +26,10 @@ C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\bin\Debug\ISAO-LE-001.app
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\ISAO_LE_001.AboutBox1.resources
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\ISAO-LE-001.exe.manifest
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\ISAO-LE-001.application
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\ConfigDiag.g.cs
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\InfoDiag.g.cs
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\UserControl1.g.cs
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\ConfigDiag.baml
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\InfoDiag.baml
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\UserControl1.baml
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\ISAO-LE-001.TrustInfo.xml

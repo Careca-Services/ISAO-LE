@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Threading;
 
 using S7.Net;
 
@@ -18,6 +19,23 @@ namespace ISAO_LE_001
     {
         static public bool diag_status;
         static Plc plc;
+        static String title;
+        static String version;
+        static String company;
+        static String copyright;
+
+
+        public App()
+        {
+            title = "ISAO-LE";
+            version = "";
+            company = "Careca Services SAS ( Simplified Stock Company)";
+            copyright = "";
+            plc = new Plc(CpuType.S7300, "0.0.0.0", 0, 0);
+        }
+
+
+
 
         static public bool Connexion(CpuType type,string ip,short rack,short slot)
         {
@@ -57,6 +75,11 @@ namespace ISAO_LE_001
         static public object LectureVar(string v)
         {
             return plc.Read(v);
+        }
+
+        static public bool PlcOnline()
+        {
+            return plc.IsConnected;
         }
 
 

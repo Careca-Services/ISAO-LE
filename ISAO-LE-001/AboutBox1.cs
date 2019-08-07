@@ -11,6 +11,7 @@ namespace ISAO_LE_001
 {
     partial class AboutBox1 : Form
     {
+
         public AboutBox1()
         {
             InitializeComponent();
@@ -103,6 +104,21 @@ namespace ISAO_LE_001
         #endregion
 
         private void TextBoxDescription_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OkButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void TableLayoutPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void AboutBox1_Load(object sender, EventArgs e)
         {
 
         }

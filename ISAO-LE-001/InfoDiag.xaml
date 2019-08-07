@@ -5,22 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ISAO_LE_001"
         mc:Ignorable="d"
-        Title="InfoDiag" Height="450" Width="800">
+        Title="InfoDiag" Height="450" Width="800" >
     <Grid Background="#FF3FEAC8">
         <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="358" Margin="10,37,0,0" VerticalAlignment="Top" Width="774">
-            <TabItem Header="Red Data">
-                <Grid Background="#FFE5E5E5"/>
+            <TabItem Header="Statistiques Données Rouges">
+                <Grid x:Name="___No_Name_" Background="#FFE5E5E5"/>
             </TabItem>
-            <TabItem Header="Orange Data">
+            <TabItem Header="Statistiques Données Oranges">
                 <Grid Background="#FFE5E5E5" Margin="0,-9,0.4,0"/>
             </TabItem>
-            <TabItem Header="Yellow Data">
-                <Grid Background="#FFE5E5E5">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                </Grid>
+            <TabItem Header="Statistiques Données Jaunes">
+                <Grid Background="#FFE5E5E5" Margin="0,-9,0.4,0"/>
             </TabItem>
         </TabControl>
 

@@ -21,18 +21,20 @@ namespace ISAO_LE_001
     public partial class Connexion : Window
     {
 
-        MainWindow mainWin;
-        bool bt_valPushed;
+       
+       
 
         public Connexion()
         {
             InitializeComponent();
-            mainWin = new MainWindow();
+            
+
+
         }
 
         private void Bt_valider_con_Click(object sender, RoutedEventArgs e)
         {
-            bt_valPushed = true;
+            
             ListBoxItem s_item = listCpu.SelectedItem as ListBoxItem;
 
             //Gestion des erreurs
@@ -70,12 +72,8 @@ namespace ISAO_LE_001
             bool status = App.Connexion(cpu_type_code,ip_box.Text,short.Parse(rack_box.Text),short.Parse(slot_box.Text));
             if (status)
             {
-                mainWin.Show();
+                
                 conWin.Close();
-            }
-            else
-            {
-                bt_valPushed = false;
             }
             
             
@@ -112,13 +110,23 @@ namespace ISAO_LE_001
 
         private void conWinOnClosed(object sender, EventArgs e)
         {
-            if (!bt_valPushed)
-            {
-                Application.Current.Shutdown();
-
-            }
+            
         }
 
+        private void BtMainWinClick(object sender, RoutedEventArgs e)
+        {
+            
+            conWin.Close();
+        }
 
+        private void conActivated(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void conIsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+
+        }
     }
 }

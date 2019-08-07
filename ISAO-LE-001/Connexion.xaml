@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ISAO_LE_001"
         mc:Ignorable="d"
-        Title="ISAO-LE : Connexion" Height="450" Width="306.731" ResizeMode="NoResize" Closed="conWinOnClosed">
+        Title="ISAO-LE : Connexion" Height="450" Width="306.731" ResizeMode="NoResize" Closed="conWinOnClosed" Activated="conActivated" IsVisibleChanged="conIsVisibleChanged">
     <Grid Background="#FF3FEAC8">
         <TextBox x:Name="ip_box" HorizontalAlignment="Left" Height="23" Margin="19,97,0,0" TextWrapping="Wrap" Text="0.0.0.0" VerticalAlignment="Top" Width="120"/>
         <ListBox x:Name="listCpu" HorizontalAlignment="Left" Height="121" Margin="19,148,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="ListCpu_SelectionChanged" IsTabStop="True">
@@ -20,7 +20,7 @@
         </ListBox>
         <TextBox x:Name="rack_box" HorizontalAlignment="Left" Height="23" Margin="144,97,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="52"/>
         <TextBox x:Name="slot_box" HorizontalAlignment="Left" Height="23" Margin="201,96,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="52" RenderTransformOrigin="-1.616,0.996"/>
-        <Button x:Name="bt_valider_con" Content="Valider" HorizontalAlignment="Left" Margin="19,331,0,0" VerticalAlignment="Top" Width="241" Height="39" Click="Bt_valider_con_Click" Background="#FFC1EEEA"/>
+        <Button x:Name="bt_valider_con" Content="Valider" HorizontalAlignment="Left" Margin="19,331,0,0" VerticalAlignment="Top" Width="257" Height="39" Click="Bt_valider_con_Click" Background="#FFC1EEEA"/>
         <Label x:Name="label" Content="adresse IP" HorizontalAlignment="Left" Margin="19,66,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label_Copy" Content="Rack" HorizontalAlignment="Left" Margin="144,66,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label_Copy1" Content="Slot" HorizontalAlignment="Left" Margin="201,66,0,0" VerticalAlignment="Top"/>

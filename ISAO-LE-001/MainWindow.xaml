@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ISAO_LE_001"
         mc:Ignorable="d"
-        Title="ISAO-LE : Interface principal" Height="450" Width="809.6" ResizeMode="NoResize" Closed="mainWinOnClosed">
+        Title="ISAO-LE : Interface principal" Height="450" Width="809.6" ResizeMode="NoResize" Closed="mainWinOnClosed" Activated="mainActivated">
     <Grid Background="#FF3FEAC8">
         <Label x:Name="label_Copy" Content="Type de données" HorizontalAlignment="Left" Margin="29,147,0,0" VerticalAlignment="Top"/>
         <ListBox x:Name="list_data_type" HorizontalAlignment="Left" Height="180" Margin="29,182,0,0" VerticalAlignment="Top" Width="117" SelectionChanged="ListCpu_SelectionChanged">
@@ -37,9 +37,10 @@
         <Image x:Name="led_off2" HorizontalAlignment="Left" Height="100" Margin="649,37,0,0" VerticalAlignment="Top" Width="100" Source="media/led_off.png"/>
         <Button x:Name="bt_conf_diag" Content="Interface config Diag" HorizontalAlignment="Left" Margin="555,198,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="true" Background="#FFC1EEEA" Click="BtConfDiagOnClick"/>
         <Button x:Name="bt_aide" Content="Aide" HorizontalAlignment="Left" Margin="555,247,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="False" Background="#FFC1EEEA" Click="BtAideOnClick"/>
-        <Button x:Name="bt_valider" Content="Valider" HorizontalAlignment="Left" Margin="29,367,0,0" VerticalAlignment="Top" Width="117" RenderTransformOrigin="-1.055,0.12" Click="BtValiderOnClick"/>
+        <Button x:Name="bt_valider" Content="Valider" HorizontalAlignment="Left" Margin="29,367,0,0" VerticalAlignment="Top" Width="117" RenderTransformOrigin="-1.055,0.12" Background="#FFEFF0F0" Click="BtValiderOnClick" Height="29"/>
         <Label x:Name="label" Content="OK" HorizontalAlignment="Left" Margin="569,6,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label_Copy1" Content="NOK" HorizontalAlignment="Left" Margin="688,6,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="bt_connexion" Content="Connexion" HorizontalAlignment="Left" Margin="555,318,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="False" Background="#FFC1EEEA" Click="BtConnexion"/>
 
     </Grid>
 </Window>

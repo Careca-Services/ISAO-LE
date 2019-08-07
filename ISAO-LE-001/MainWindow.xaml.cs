@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
+
 
 
 
@@ -29,9 +31,70 @@ namespace ISAO_LE_001
         AboutBox1 aideWin;
         ConfigDiag conf_diagWin;
         InfoDiag infoDiagWin;
+        Connexion conWin;
+
+        TextBox[] dynTbox1;
+        TextBox[] dynTbox2;
+        TextBox[] dynTbox3;
+
         public MainWindow()
         {
             InitializeComponent();
+            //--------------- windows-------
+            conWin = new Connexion();
+            conWin.Closing += Hidde;
+
+            aideWin = new AboutBox1();
+            aideWin.FormClosing += aboutHidde;
+
+            infoDiagWin = new InfoDiag();
+            infoDiagWin.Closing += Hidde;
+
+            conf_diagWin = new ConfigDiag();
+            conf_diagWin.Closing += Hidde;
+
+            //---------------Init-------------------
+
+            //diagconfig
+            int max = 10;
+            dynTbox1 = new TextBox[max];
+            dynTbox2 = new TextBox[max];
+            dynTbox3 = new TextBox[max];
+
+            conf_diagWin.stack1.Children.Clear();
+            conf_diagWin.stack2.Children.Clear();
+            conf_diagWin.stack3.Children.Clear();
+
+            for (int i = 0; i < max; i++) {
+                dynTbox1[i] = new TextBox();
+                dynTbox1[i].Name = "st1tb"+i;
+                dynTbox1[i].Height = 23;
+                dynTbox1[i].Text = "";
+                conf_diagWin.stack1.Children.Add(dynTbox1[i]);
+                    }
+            for (int i = 0; i < max; i++)
+            {
+                dynTbox1[i] = new TextBox();
+                dynTbox1[i].Name = "st2tb" + i;
+                dynTbox1[i].Height = 23;
+                dynTbox1[i].Text = "";
+                conf_diagWin.stack2.Children.Add(dynTbox1[i]);
+            }
+            for (int i = 0; i < max; i++)
+            {
+                dynTbox1[i] = new TextBox();
+                dynTbox1[i].Name = "st3tb" + i;
+                dynTbox1[i].Height = 23;
+                dynTbox1[i].Text = "";
+                conf_diagWin.stack3.Children.Add(dynTbox1[i]);
+            }
+
+            // gestionaire d'evennement temporisé
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += routine;
+            timer.Start();
+
             if(App.diag_status)
             {
                 diag_ok.Visibility = Visibility.Visible;
@@ -43,9 +106,7 @@ namespace ISAO_LE_001
                 diag_ok.Visibility = Visibility.Hidden;
 
             }
-            aideWin = new AboutBox1();
-            infoDiagWin = new InfoDiag();
-            conf_diagWin = new ConfigDiag();
+            
         }
 
         private void ListCpu_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -116,6 +177,8 @@ namespace ISAO_LE_001
 
         private void BtAideOnClick(object sender, RoutedEventArgs e)
         {
+
+            
             aideWin.Show();
         }
 
@@ -133,6 +196,68 @@ namespace ISAO_LE_001
         {
 
             infoDiagWin.Show();
+           
+        }
+
+        public void BtConnexion(object sender, EventArgs e)
+        {
+
+        }
+
+
+        //--------------------------- fondtion utile -----------------
+
+            /// <summary>
+            /// Cette methode sera appellé toutes les seconde
+            /// </summary>
+            /// <param name="sender"></param>
+            /// <param name="e"></param>
+        public void routine(object sender, EventArgs e)
+        {
+            
+            if (App.PlcOnline())
+            {
+                bt_connexion.IsEnabled = false;
+                alarm_box.Text = "API connecté";
+                bt_valider.IsEnabled = true;
+                //#FF C1 EE EA
+                bt_valider.Background = new SolidColorBrush(Color.FromArgb(0xFF,0xC1,0xEE,0xEA)); 
+            }
+            else
+            {
+                bt_connexion.IsEnabled = true;
+                alarm_box.Text = "API no connecté";
+                bt_valider.IsEnabled = false;
+                //"#FF EF F0 F0"
+                bt_valider.Background = new SolidColorBrush(Color.FromArgb(0xFF, 0xEF, 0xF0,0xF0));
+
+            }
+        }
+
+        private void mainActivated(object sender, EventArgs e)
+        {
+            
+
+
+        }
+
+        private void BtConnexion(object sender, RoutedEventArgs e)
+        {
+            conWin.Show();
+        }
+
+        public void Hidde(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            e.Cancel = true;
+            Window w = (Window)sender;
+           w.Visibility = Visibility.Hidden;
+        }
+        private void aboutHidde(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            e.Cancel = true;
+            AboutBox1 a = (AboutBox1)sender;
+            a.Hide();
+
         }
     }
 }
