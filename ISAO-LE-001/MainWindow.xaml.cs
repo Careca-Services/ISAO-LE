@@ -221,7 +221,9 @@ namespace ISAO_LE_001
                 alarm_box.Text = "API connecté";
                 bt_valider.IsEnabled = true;
                 //#FF C1 EE EA
-                bt_valider.Background = new SolidColorBrush(Color.FromArgb(0xFF,0xC1,0xEE,0xEA)); 
+                bt_valider.Background = new SolidColorBrush(Color.FromArgb(0xFF,0xC1,0xEE,0xEA));
+                bt_deconnexion.IsEnabled = true;
+                bt_deconnexion.Background = new SolidColorBrush(Color.FromArgb(0xFF, 0xC1, 0xEE, 0xEA));
             }
             else
             {
@@ -230,6 +232,8 @@ namespace ISAO_LE_001
                 bt_valider.IsEnabled = false;
                 //"#FF EF F0 F0"
                 bt_valider.Background = new SolidColorBrush(Color.FromArgb(0xFF, 0xEF, 0xF0,0xF0));
+                bt_deconnexion.IsEnabled = false;
+                bt_deconnexion.Background = new SolidColorBrush(Color.FromArgb(0xFF, 0xEF, 0xF0, 0xF0));
 
             }
         }
@@ -258,6 +262,11 @@ namespace ISAO_LE_001
             AboutBox1 a = (AboutBox1)sender;
             a.Hide();
 
+        }
+
+        private void BtDeConnexion(object sender, RoutedEventArgs e)
+        {
+            App.PlcClose();
         }
     }
 }

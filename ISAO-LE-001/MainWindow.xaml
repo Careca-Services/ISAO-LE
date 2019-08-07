@@ -40,7 +40,8 @@
         <Button x:Name="bt_valider" Content="Valider" HorizontalAlignment="Left" Margin="29,367,0,0" VerticalAlignment="Top" Width="117" RenderTransformOrigin="-1.055,0.12" Background="#FFEFF0F0" Click="BtValiderOnClick" Height="29"/>
         <Label x:Name="label" Content="OK" HorizontalAlignment="Left" Margin="569,6,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label_Copy1" Content="NOK" HorizontalAlignment="Left" Margin="688,6,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="bt_connexion" Content="Connexion" HorizontalAlignment="Left" Margin="555,318,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="False" Background="#FFC1EEEA" Click="BtConnexion"/>
+        <Button x:Name="bt_connexion" Content="Connexion" HorizontalAlignment="Left" Margin="555,313,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="False" Background="#FFC1EEEA" Click="BtConnexion"/>
+        <Button x:Name="bt_deconnexion" Content="Deconnexion" HorizontalAlignment="Left" Margin="555,362,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="False" Background="#FFC1EEEA" Click="BtDeConnexion"/>
 
     </Grid>
 </Window>

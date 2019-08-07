@@ -5,17 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ISAO_LE_001"
         mc:Ignorable="d"
-        Title="ISAO-LE : accueil " Height="450" Width="800" Activated="SplashActivated" ContentRendered="SplashRendered" Closed="SplashClosed" AllowsTransparency="True" WindowStyle="None" BorderBrush="#FF8AE5E3">
+        Title="ISAO-LE : accueil " Height="450" Width="800" Activated="SplashActivated" ContentRendered="SplashRendered" Closed="SplashClosed" AllowsTransparency="True" WindowStyle="None" BorderBrush="#FF8AE5E3" Topmost="True" WindowStartupLocation="CenterScreen">
     <Grid x:Name="grid1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="587*"/>
+            <ColumnDefinition Width="213*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <ImageBrush ImageSource="media/background2.jpg"/>
         </Grid.Background>
-        <ProgressBar x:Name="pbar" HorizontalAlignment="Left" Height="14" Margin="25,350,0,0" VerticalAlignment="Top" Width="738" ValueChanged="ProgressBar_ValueChanged" Minimum="0" Maximum="100" Value="1"/>
-        <Label x:Name="produit" Content="ISAO-LE" HorizontalAlignment="Center" Height="97" Margin="259,150,221.6,173" VerticalAlignment="Center" Width="313" FontSize="72" Foreground="#FFF1EAEA"/>
-        <Label x:Name="label1" Content="V0.0.1" HorizontalAlignment="Left" Margin="683,26,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.414,0.051" FontSize="18" Background="{x:Null}" Foreground="#FFF1EAEA"/>
+        <ProgressBar x:Name="pbar" HorizontalAlignment="Left" Height="14" Margin="25,350,0,0" VerticalAlignment="Top" Width="738" ValueChanged="ProgressBar_ValueChanged" Minimum="0" Maximum="100" Value="1" Grid.ColumnSpan="2"/>
+        <Label x:Name="produit" Content="ISAO-LE" HorizontalAlignment="Center" Height="97" Margin="262,165,12.4,187.6" VerticalAlignment="Center" Width="313" FontSize="72" Foreground="#FFF1EAEA"/>
+        <Label x:Name="label1" Content="V0.0.1" HorizontalAlignment="Left" Margin="95.6,26,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.414,0.051" FontSize="18" Background="{x:Null}" Foreground="#FFF1EAEA" Grid.Column="1"/>
         <Button x:Name="bt_connect" Content="Demarrer" HorizontalAlignment="Left" Margin="183,288,0,0" VerticalAlignment="Top" Width="181" Height="38" Click="Bt_ConnectOnClick" Visibility="Visible" Background="#FFC1EEEA"/>
         <Label x:Name="label2" Content="© Careca Services 2013-2019" HorizontalAlignment="Left" Margin="25,385,0,0" VerticalAlignment="Top" Width="177" Background="{x:Null}" Foreground="#FFDC1F1F"/>
-        <Button x:Name="bt_close" Content="Fermer" HorizontalAlignment="Left" Margin="472,288,0,0" VerticalAlignment="Top" Width="181" Height="38" Click="Bt_CloseOnClick" Visibility="Visible" Background="#FFC1EEEA"/>
+        <Button x:Name="bt_close" Content="Fermer" HorizontalAlignment="Left" Margin="472,288,0,0" VerticalAlignment="Top" Width="181" Height="38" Click="Bt_CloseOnClick" Visibility="Visible" Background="#FFC1EEEA" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>

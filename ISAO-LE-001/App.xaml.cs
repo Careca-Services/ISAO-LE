@@ -82,6 +82,11 @@ namespace ISAO_LE_001
             return plc.IsConnected;
         }
 
+        static public void PlcClose()
+        {
+            plc.Close();
+        }
+
 
         
 
