@@ -27,7 +27,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>https://carecaservices.com/main/frontend/web/ISAO-LE-001/</UpdateUrl>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationRevision>6</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
