@@ -1,0 +1,16 @@
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\b\ISAO-LE-002\bin\Debug\ISAO-LE-002.exe.config
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\b\ISAO-LE-002\bin\Debug\ISAO-LE-002.exe
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\b\ISAO-LE-002\bin\Debug\ISAO-LE-002.pdb
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-002\Debug\ISAO-LE-002.csprojAssemblyReference.cache
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-002\Debug\App.g.cs
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-002\Debug\ISAO-LE-002_MarkupCompile.cache
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-002\Debug\ISAO-LE-002_MarkupCompile.lref
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-002\Debug\ISAO-LE-002.g.resources
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-002\Debug\ISAO_LE_002.Properties.Resources.resources
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-002\Debug\ISAO-LE-002.csproj.GenerateResource.cache
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-002\Debug\ISAO-LE-002.csproj.CoreCompileInputs.cache
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-002\Debug\ISAO-LE-002.exe
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-002\Debug\ISAO-LE-002.pdb
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-002\Debug\Splash.g.cs
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-002\Debug\Splash.baml
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-002\Debug\ISAO-LE-002.csproj.CopyComplete

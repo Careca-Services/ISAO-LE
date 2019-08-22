@@ -19,19 +19,12 @@ namespace ISAO_LE_001
     {
         static public bool diag_status;
         static Plc plc;
-        static String title;
-        static String version;
-        static String company;
-        static String copyright;
+        
 
 
-        public App()
+        public App()//!< Detailed description after the member
         {
-            title = "ISAO-LE";
-            version = "";
-            company = "Careca Services SAS ( Simplified Stock Company)";
-            copyright = "";
-            plc = new Plc(CpuType.S7300, "0.0.0.0", 0, 0);
+            
         }
 
 
@@ -79,7 +72,8 @@ namespace ISAO_LE_001
 
         static public bool PlcOnline()
         {
-            return plc.IsConnected;
+            bool resp = (plc != null) ?plc.IsConnected : false;
+            return resp;
         }
 
         static public void PlcClose()

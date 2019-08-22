@@ -1,0 +1,14 @@
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\b\ISAO-LE-001-Tests\Release\netcoreapp2.1\media\logo2020_transparent.png
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\b\ISAO-LE-001-Tests\Release\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\b\ISAO-LE-001-Tests\Release\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\b\ISAO-LE-001-Tests\Release\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\b\ISAO-LE-001-Tests\Release\netcoreapp2.1\ISAO-LE-001-Tests.deps.json
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\b\ISAO-LE-001-Tests\Release\netcoreapp2.1\ISAO-LE-001-Tests.runtimeconfig.json
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\b\ISAO-LE-001-Tests\Release\netcoreapp2.1\ISAO-LE-001-Tests.runtimeconfig.dev.json
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\b\ISAO-LE-001-Tests\Release\netcoreapp2.1\ISAO-LE-001-Tests.dll
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-001-Tests\Release\netcoreapp2.1\ISAO-LE-001-Tests.csprojAssemblyReference.cache
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-001-Tests\Release\netcoreapp2.1\ISAO-LE-001-Tests.csproj.CoreCompileInputs.cache
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-001-Tests\Release\netcoreapp2.1\ISAO-LE-001-Tests.AssemblyInfoInputs.cache
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-001-Tests\Release\netcoreapp2.1\ISAO-LE-001-Tests.AssemblyInfo.cs
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-001-Tests\Release\netcoreapp2.1\ISAO-LE-001-Tests.csproj.CopyComplete
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\.vs\ISAO-LE\lut\0\i\ISAO-LE-001-Tests\Release\netcoreapp2.1\ISAO-LE-001-Tests.dll

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ISAO-LE-002.exe" version="0.2.0.2" publicKeyToken="3dfbf02763941f57" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="round.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ISAO-LE-002" version="0.2.0.0" publicKeyToken="3DFBF02763941F57" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ISAO-LE-002.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ISAO-LE-002.exe" size="1234440">
+      <assemblyIdentity name="ISAO-LE-002" version="0.2.0.0" publicKeyToken="3DFBF02763941F57" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5tgAZDFMZI2Gipj3B0xS7IKr6gePqg9YmPtBSwk/Tro=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sharp7.dll" size="41984">
+      <assemblyIdentity name="Sharp7" version="1.0.25.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>29A8fvK8JbgaAgc1xjg6oRo09/rke+GJJJLEgk6AUDo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ISAO-LE-002.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="round.ico" size="183198">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6GGPWVVDZlAgAdLkzF8EOP49ODlDWsCc6StkTBiwi7s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=CARECASERVICES\c.muanzadiba" issuerKeyHash="1e0f960edf8604e10eb746e8b161423274423d74" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>41OJczPxdghleU6euHlNB0ByexJgBn98EdRVSgKGnic=</DigestValue></Reference></SignedInfo><SignatureValue>M4CORXk/IG4204P3KSzVcpQwyjxqgW78zRgIueVtanL7aupXajpVMDhy7m8q4UDuXsnIPc/wHMVMiW1IHdFbGdAzH9VC/nfU6Yd9BL1Vraahn6/akNzd4kWgeWL01KvCGcHUfQZxCk9hEvOcu6UXfRaZ0ep9VwUR68/aA/yUehw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tgrzL4EDrTqqOjyGe4ZKfKxOq5vc8xegvmkAZB5tHv9mhztGNYQsP33E4LaY+JOUaja6Jr6FD13dnvh3B4RZNR2000ltYCaq1A0Q8mE7kmUJ3NlkCDWFGMkNnNje2jFBb/8gfm1HmA0Dky7rUAsUgSWqQUF9LGKkl/EyUmJTVKE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="279e86024a55d4117c7f0660127b7240074d79b89e4e79650876f133738953e3" Description="" Url=""><as:assemblyIdentity name="ISAO-LE-002.exe" version="0.2.0.2" publicKeyToken="3dfbf02763941f57" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CARECASERVICES\c.muanzadiba</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>q80fC/escf8bKXlmnSmdqygkfYyVrT3Q3LM56QjRMow=</DigestValue></Reference></SignedInfo><SignatureValue>BRRCLd6UJytOGQt/XMhAfkuPxoHTeALsvccTLb2dm470mVO4nrLWouSrMPZlP2JRNHfL93m0tftNNajlbi17IbX8HZz3Fr9srEcb4FXvAF67yHcoTtxIYKs7l0keNGIeBIgmDGAjN8xQWlAD84Jv3Kgov19Q4cm6kb9aw/NUwCQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tgrzL4EDrTqqOjyGe4ZKfKxOq5vc8xegvmkAZB5tHv9mhztGNYQsP33E4LaY+JOUaja6Jr6FD13dnvh3B4RZNR2000ltYCaq1A0Q8mE7kmUJ3NlkCDWFGMkNnNje2jFBb/8gfm1HmA0Dky7rUAsUgSWqQUF9LGKkl/EyUmJTVKE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQTgHluR3qJrtBwAFnSmwLEDANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYAQwBBAFIARQBDAEEAUwBFAFIAVgBJAEMARQBTAFwAYwAuAG0AdQBhAG4AegBhAGQAaQBiAGEwHhcNMTkwODIwMTgxMjE0WhcNMjAwODIwMDAxMjE0WjBBMT8wPQYDVQQDHjYAQwBBAFIARQBDAEEAUwBFAFIAVgBJAEMARQBTAFwAYwAuAG0AdQBhAG4AegBhAGQAaQBiAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALYK8y+BA606qjo8hnuGSnysTqub3PMXoL5pAGQebR7/Zoc7RjWELD99xOC2mPiTlGo2uia+hQ9d3Z74dweEWTUdtNNJbWAmqtQNEPJhO5JlCdzZZAg1hRjJDZzY3toxQW//IH5tR5gNA5Mu61ALFIElqkFBfSxipJfxMlJiU1ShAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAn5NltCTwOPjiVsGbNUWrxV3sR7Qh2J+Sg5XtW3sVioEDv2Xf7vZ4k+pO6XWIKd8JbupZdsPvXwqWCLQw0hSshh1YI9/XT69u6wqXdsQ1OLmBccy0GbEcZz/A5aM1uTo/1BJjz6JSYBIoGid+iIK+Wz+We3GIcDkXB+ukFgj0mkI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

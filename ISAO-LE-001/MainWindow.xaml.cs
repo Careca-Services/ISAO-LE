@@ -154,27 +154,37 @@ namespace ISAO_LE_001
             }
         }
 
+        /// <summary>
+        /// Conversion Type ecrite en codetype
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
         private S7.Net.DataType dtypeCode(string s)
         {
             switch (s)
             {
-                case "Entrées":
+                case "I":
                     return S7.Net.DataType.Input;
-                case "Sorties":
+                case "A":
                     return S7.Net.DataType.Output;
-                case "Memoire":
+                case "M":
                     return S7.Net.DataType.Memory;
-                case "Block de donéees":
+                case "DB":
                     return S7.Net.DataType.DataBlock;
-                case "Timer":
+                case "T":
                     return S7.Net.DataType.Timer;
-                case "Compteur":
+                case "CTU":
                     return S7.Net.DataType.Counter;
                 default:
                     return S7.Net.DataType.DataBlock;
             }
         }
 
+        /// <summary>
+        /// Bouton aide cliqué
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtAideOnClick(object sender, RoutedEventArgs e)
         {
 

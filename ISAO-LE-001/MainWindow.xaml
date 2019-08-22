@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ISAO_LE_001"
         mc:Ignorable="d"
-        Title="ISAO-LE : Interface principal" Height="450" Width="809.6" ResizeMode="NoResize" Closed="mainWinOnClosed" Activated="mainActivated">
+        Title="ISAO-LE : Interface principale" Height="450" Width="809.6" ResizeMode="NoResize" Closed="mainWinOnClosed" Activated="mainActivated">
     <Grid Background="#FF3FEAC8">
         <Label x:Name="label_Copy" Content="Type de données" HorizontalAlignment="Left" Margin="29,147,0,0" VerticalAlignment="Top"/>
         <ListBox x:Name="list_data_type" HorizontalAlignment="Left" Height="180" Margin="29,182,0,0" VerticalAlignment="Top" Width="117" SelectionChanged="ListCpu_SelectionChanged">
-            <ListBoxItem x:Name="input" Content="Entrées"/>
-            <ListBoxItem x:Name="output" Content="Sorties"/>
-            <ListBoxItem x:Name="Memory" Content="Memoire"/>
-            <ListBoxItem x:Name="db" Content="Block de donéees"/>
-            <ListBoxItem x:Name="timer" Content="Timer"/>
-            <ListBoxItem x:Name="counter" Content="Compteur"/>
+            <ListBoxItem x:Name="input" Content="I"/>
+            <ListBoxItem x:Name="output" Content="A"/>
+            <ListBoxItem x:Name="Memory" Content="M"/>
+            <ListBoxItem x:Name="db" Content="DB"/>
+            <ListBoxItem x:Name="timer" Content="T"/>
+            <ListBoxItem x:Name="counter" Content="CTU"/>
             <ListBoxItem/>
 
         </ListBox>
@@ -28,7 +28,7 @@
         <TextBox x:Name="addr_box" HorizontalAlignment="Left" Height="23" Margin="167,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="136"/>
         <TextBox x:Name="start_point_box" HorizontalAlignment="Left" Height="23" Margin="320,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="91"/>
         <TextBox x:Name="nb_box" HorizontalAlignment="Left" Height="23" Margin="458,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="91"/>
-        <Label x:Name="start_point_label" Content="point dedépart" HorizontalAlignment="Left" Margin="320,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.582,-1.569"/>
+        <Label x:Name="start_point_label" Content="point de départ" HorizontalAlignment="Left" Margin="320,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.582,-1.569"/>
         <Label x:Name="butes_label" Content="bytes" HorizontalAlignment="Left" Margin="458,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.582,-1.569"/>
         <Button x:Name="bt_diag" Content="Interface Info Diag" HorizontalAlignment="Left" Margin="555,147,0,0" VerticalAlignment="Top" Width="210" Height="44" UseLayoutRounding="False" Background="#FFC1EEEA" Click="Bt_diag_Click"/>
         <Image x:Name="diag_ok" HorizontalAlignment="Left" Height="100" Margin="536,37,0,0" VerticalAlignment="Top" Width="100" Source="media/diag_ok.png" Panel.ZIndex="1"/>

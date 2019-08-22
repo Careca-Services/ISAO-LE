@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ISAO_LE_001"
         mc:Ignorable="d"
-        Title="ISAO-LE : accueil " Height="450" Width="800" Activated="SplashActivated" ContentRendered="SplashRendered" Closed="SplashClosed" AllowsTransparency="True" WindowStyle="None" BorderBrush="#FF8AE5E3" Topmost="True" WindowStartupLocation="CenterScreen">
+        Title="ISAO-LE : accueil " Height="450" Width="800" Activated="SplashActivated" ContentRendered="SplashRendered" Closed="SplashClosed" AllowsTransparency="True" WindowStyle="None" BorderBrush="#FF8AE5E3" Topmost="False" WindowStartupLocation="CenterScreen">
     <Grid x:Name="grid1">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="587*"/>
@@ -20,6 +20,7 @@
         <Button x:Name="bt_connect" Content="Demarrer" HorizontalAlignment="Left" Margin="183,288,0,0" VerticalAlignment="Top" Width="181" Height="38" Click="Bt_ConnectOnClick" Visibility="Visible" Background="#FFC1EEEA"/>
         <Label x:Name="label2" Content="© Careca Services 2013-2019" HorizontalAlignment="Left" Margin="25,385,0,0" VerticalAlignment="Top" Width="177" Background="{x:Null}" Foreground="#FFDC1F1F"/>
         <Button x:Name="bt_close" Content="Fermer" HorizontalAlignment="Left" Margin="472,288,0,0" VerticalAlignment="Top" Width="181" Height="38" Click="Bt_CloseOnClick" Visibility="Visible" Background="#FFC1EEEA" Grid.ColumnSpan="2"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="25,26,0,0" VerticalAlignment="Top" Width="100" Source="pack://siteoforigin:,,,/media/logo2020_transparent.png"/>
 
     </Grid>
 </Window>

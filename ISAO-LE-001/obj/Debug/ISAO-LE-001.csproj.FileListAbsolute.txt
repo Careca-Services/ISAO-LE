@@ -32,3 +32,4 @@ C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\ConfigDiag.baml
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\InfoDiag.baml
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\UserControl1.baml
 C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\ISAO-LE-001.TrustInfo.xml
+C:\Users\c.muanzadiba\source\repos\ISAO-LE\ISAO-LE-001\obj\Debug\ISAO-LE-001.csprojAssemblyReference.cache

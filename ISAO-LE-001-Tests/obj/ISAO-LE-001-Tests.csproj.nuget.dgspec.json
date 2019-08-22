@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\c.muanzadiba\\source\\repos\\ISAO-LE\\ISAO-LE-001-Tests\\ISAO-LE-001-Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\c.muanzadiba\\source\\repos\\ISAO-LE\\ISAO-LE-001-Tests\\ISAO-LE-001-Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\c.muanzadiba\\source\\repos\\ISAO-LE\\ISAO-LE-001-Tests\\ISAO-LE-001-Tests.csproj",
+        "projectName": "ISAO-LE-001-Tests",
+        "projectPath": "C:\\Users\\c.muanzadiba\\source\\repos\\ISAO-LE\\ISAO-LE-001-Tests\\ISAO-LE-001-Tests.csproj",
+        "packagesPath": "C:\\Users\\c.muanzadiba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\c.muanzadiba\\source\\repos\\ISAO-LE\\ISAO-LE-001-Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c.muanzadiba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\c.muanzadiba\\source\\repos\\ISAO-LE\\ISAO-LE-001\\ISAO-LE-001.csproj": {
+                "projectPath": "C:\\Users\\c.muanzadiba\\source\\repos\\ISAO-LE\\ISAO-LE-001\\ISAO-LE-001.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "S7netplus": {
+              "target": "Package",
+              "version": "[0.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\c.muanzadiba\\source\\repos\\ISAO-LE\\ISAO-LE-001\\ISAO-LE-001.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\c.muanzadiba\\source\\repos\\ISAO-LE\\ISAO-LE-001\\ISAO-LE-001.csproj",
+        "projectName": "ISAO-LE-001",
+        "projectPath": "C:\\Users\\c.muanzadiba\\source\\repos\\ISAO-LE\\ISAO-LE-001\\ISAO-LE-001.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

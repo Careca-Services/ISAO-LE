@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISAO-LE-001", "ISAO-LE-001\ISAO-LE-001.csproj", "{C4D30DF4-ED2D-4680-BE66-E3DF116298CF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISAO-LE-001-Tests", "ISAO-LE-001-Tests\ISAO-LE-001-Tests.csproj", "{CE9B9059-A154-4944-B288-8BA4203E3E29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISAO-LE-002", "ISAO-LE-002\ISAO-LE-002.csproj", "{E5FB263D-44B6-4330-972F-247DC0322750}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C4D30DF4-ED2D-4680-BE66-E3DF116298CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D30DF4-ED2D-4680-BE66-E3DF116298CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D30DF4-ED2D-4680-BE66-E3DF116298CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9B9059-A154-4944-B288-8BA4203E3E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9B9059-A154-4944-B288-8BA4203E3E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9B9059-A154-4944-B288-8BA4203E3E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9B9059-A154-4944-B288-8BA4203E3E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FB263D-44B6-4330-972F-247DC0322750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FB263D-44B6-4330-972F-247DC0322750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FB263D-44B6-4330-972F-247DC0322750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FB263D-44B6-4330-972F-247DC0322750}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
